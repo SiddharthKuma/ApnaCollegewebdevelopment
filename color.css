@@ -1,0 +1,15 @@
+    h1 {
+        color: #cd18cd
+    }
+    
+    p {
+        color: rgb(42, 165, 161);
+    }
+    
+    h2 {
+        color: rgba(190 140, 125, 0.616);
+    }
+    
+    .good {
+        background-image: url("good.jpeg");
+    }

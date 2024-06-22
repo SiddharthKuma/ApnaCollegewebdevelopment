@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+        background-color: rgb(111, 121, 121);
+      }
+
+      .clip-path {
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      }
+
+      .class-my {
+        clip-path: polygon(
+          50% 0%,
+          90% 20%,
+          100% 60%,
+          75% 100%,
+          25% 100%,
+          0% 60%,
+          10% 20%
+        );
+      }
+
+      body,
+      html {
+        height: 100%;
+      }
+
+      img {
+        height: 75%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img class="class-my clip-path" src="good.jpeg" alt="" />
+  </body>
+</html>

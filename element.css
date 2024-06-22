@@ -1,0 +1,32 @@
+p,
+a {
+    color: green;
+}
+
+li {
+    list-style-type: none;
+}
+
+.speaker {
+    color: blue;
+    font-weight: bolder;
+}
+
+li em {
+    color: rebeccapurple;
+}
+
+h1+p {
+    font-size: 20px;
+}
+
+a:hover {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+body h1+p .speaker {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}

@@ -1,0 +1,13 @@
+/* h1 {
+    background-color: coral;
+} */
+
+.background {
+    background-image: url("good.jpeg");
+    background-repeat: repeat;
+    background-size: 400px;
+    background-position: bottom;
+    background-attachment: scroll;
+    height: 1000px;
+    width: 1000px;
+}
