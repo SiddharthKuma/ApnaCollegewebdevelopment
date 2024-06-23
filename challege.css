@@ -9,6 +9,9 @@ body {
     margin: 15px 30px;
     font-size: 17px;
     padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
 }
 
 .main {
