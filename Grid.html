@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Responsive</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        /* grid-template-rows: 8em; */
+        grid-gap: 1em;
+        background-color: #2196f3;
+        padding: 1em;
+        height: 95vh;
+      }
+
+      .item {
+        background-color: rgb(red, green, blue);
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minax(10em, 1fr));
+        grid-template-rows: 8em;
+        grid-gap: 1em;
+        background-color: #f3218e;
+        border: 1px solid black;
+        padding: 1em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+      <div class="item">card</div>
+    </div>
+  </body>
+</html>
